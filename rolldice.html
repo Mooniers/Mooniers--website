@@ -1,40 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double-Dice Roller</title>
 
-    <title>Roll The Dice | Vince Bryan M. Tajanlangit</title>
-
-    <!-- Montserrat Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    
-    <!-- CSS File -->
-    <link rel="stylesheet" href="css/style.css">
-
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
+    <div class="main">
+        <div class="container">
+            <h1>Double-Dice Roller</h1>
 
-    <div class="container">
-        
-        <div class="dice">
-            <div class="face front"></div>
-            <div class="face back"></div>
-            <div class="face top"></div>
-            <div class="face bottom"></div>
-            <div class="face right"></div>
-            <div class="face left"></div>
+            <div class="game-container">
+                <div id='dice1' class="dice dice-one">
+                    <div id="dice-one-side-one" class='side one'>
+                        <div class="dot one-1"></div>
+                    </div>
+                    <div id="dice-one-side-two" class='side two'>
+                        <div class="dot two-1"></div>
+                        <div class="dot two-2"></div>
+                    </div>
+                    <div id="dice-one-side-three" class='side three'>
+                        <div class="dot three-1"></div>
+                        <div class="dot three-2"></div>
+                        <div class="dot three-3"></div>
+                    </div>
+                    <div id="dice-one-side-four" class='side four'>
+                        <div class="dot four-1"></div>
+                        <div class="dot four-2"></div>
+                        <div class="dot four-3"></div>
+                        <div class="dot four-4"></div>
+                    </div>
+                    <div id="dice-one-side-five" class='side five'>
+                        <div class="dot five-1"></div>
+                        <div class="dot five-2"></div>
+                        <div class="dot five-3"></div>
+                        <div class="dot five-4"></div>
+                        <div class="dot five-5"></div>
+                    </div>
+                    <div id="dice-one-side-six" class='side six'>
+                        <div class="dot six-1"></div>
+                        <div class="dot six-2"></div>
+                        <div class="dot six-3"></div>
+                        <div class="dot six-4"></div>
+                        <div class="dot six-5"></div>
+                        <div class="dot six-6"></div>
+                    </div>
+                </div>
+
+                <div id='dice2' class="dice dice-two">
+                    <div id="dice-two-side-one" class='side one'>
+                        <div class="dot one-1"></div>
+                    </div>
+                    <div id="dice-two-side-two" class='side two'>
+                        <div class="dot two-1"></div>
+                        <div class="dot two-2"></div>
+                    </div>
+                    <div id="dice-two-side-three" class='side three'>
+                        <div class="dot three-1"></div>
+                        <div class="dot three-2"></div>
+                        <div class="dot three-3"></div>
+                    </div>
+                    <div id="dice-two-side-four" class='side four'>
+                        <div class="dot four-1"></div>
+                        <div class="dot four-2"></div>
+                        <div class="dot four-3"></div>
+                        <div class="dot four-4"></div>
+                    </div>
+                    <div id="dice-two-side-five" class='side five'>
+                        <div class="dot five-1"></div>
+                        <div class="dot five-2"></div>
+                        <div class="dot five-3"></div>
+                        <div class="dot five-4"></div>
+                        <div class="dot five-5"></div>
+                    </div>
+                    <div id="dice-two-side-six" class='side six'>
+                        <div class="dot six-1"></div>
+                        <div class="dot six-2"></div>
+                        <div class="dot six-3"></div>
+                        <div class="dot six-4"></div>
+                        <div class="dot six-5"></div>
+                        <div class="dot six-6"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id='roll' class='roll-button'><button>Roll dice!</button></div>
+
         </div>
-
-        <button class="roll">
-            Roll Dice
-        </button>
-
     </div>
 
-    <!-- JS File -->
-    <script src="js/script.js" type="text/javascript"></script>
-
+    <!-- Script JS -->
+    <script src="./script.js"></script>
 </body>
-
 </html>
